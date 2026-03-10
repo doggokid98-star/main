@@ -1,0 +1,98 @@
+[
+  {
+    "id": "bestsnakegame",
+    "name": "Best Snake Game",
+    "path": "../bestsnakegame.py",
+    "platforms": ["windows", "mac", "linux", "chromeos"]
+  },
+  {
+    "id": "pong",
+    "name": "Pong",
+    "path": "games/pong/run.py",
+    "platforms": ["windows", "mac", "linux", "chromeos"]
+  },
+  {
+    "id": "car_city",
+    "name": "City Driver",
+    "path": "games/car_city/run.py",
+    "platforms": ["windows", "mac", "linux", "chromeos"]
+  },
+  {
+    "id": "dungeon_crawler",
+    "name": "Dungeon Crawler",
+    "path": "games/dungeon_crawler/run.py",
+    "platforms": ["windows", "mac", "linux", "chromeos"]
+  },
+  {
+    "id": "fishing_rpg",
+    "name": "Fishing RPG",
+    "path": "games/fishing_rpg/run.py",
+    "platforms": ["windows", "mac", "linux", "chromeos"]
+  },
+  {
+    "id": "breakout",
+    "name": "Breakout",
+    "path": "games/breakout/run.py",
+    "platforms": ["windows", "mac", "linux", "chromeos"]
+  },
+  {
+    "id": "space_shooter",
+    "name": "Space Shooter",
+    "path": "games/space_shooter/run.py",
+    "platforms": ["windows", "mac", "linux", "chromeos"]
+  },
+  {
+    "id": "flappy",
+    "name": "Flappy",
+    "path": "games/flappy/run.py",
+    "platforms": ["windows", "mac", "linux", "chromeos"]
+  },
+  {
+    "id": "memory_match",
+    "name": "Memory Match",
+    "path": "games/memory_match/run.py",
+    "platforms": ["windows", "mac", "linux", "chromeos"]
+  },
+  {
+    "id": "typing_defender",
+    "name": "Typing Defender",
+    "path": "games/typing_defender/run.py",
+    "platforms": ["windows", "mac", "linux", "chromeos"]
+  },
+  {
+    "id": "platform_jumper",
+    "name": "Platform Jumper",
+    "path": "games/platform_jumper/run.py",
+    "platforms": ["windows", "mac", "linux", "chromeos"]
+  },
+  {
+    "id": "snake_classic",
+    "name": "Snake Classic",
+    "path": "games/snake_classic/run.py",
+    "platforms": ["windows", "mac", "linux", "chromeos"]
+  },
+  {
+    "id": "endless_runner",
+    "name": "Endless Runner",
+    "path": "games/endless_runner/run.py",
+    "platforms": ["windows", "mac", "linux", "chromeos"]
+  },
+  {
+    "id": "puzzle_slide",
+    "name": "Puzzle Slide",
+    "path": "games/puzzle_slide/run.py",
+    "platforms": ["windows", "mac", "linux", "chromeos"]
+  },
+  {
+    "id": "tower_defense",
+    "name": "Tower Defense",
+    "path": "games/tower_defense/run.py",
+    "platforms": ["windows", "mac", "linux", "chromeos"]
+  },
+  {
+    "id": "fruit_catch",
+    "name": "Fruit Catch",
+    "path": "games/fruit_catch/run.py",
+    "platforms": ["windows", "mac", "linux", "chromeos"]
+  }
+]

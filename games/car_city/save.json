@@ -1,0 +1,18 @@
+{
+  "cash": 500,
+  "bank": 0,
+  "stocks": {
+    "MegaTech": 0,
+    "GreenEnergy": 0,
+    "FoodCorp": 0,
+    "BuildCo": 0,
+    "MediaNet": 0
+  },
+  "prices": {
+    "MegaTech": 96.71866094688255,
+    "GreenEnergy": 125.31705782669121,
+    "FoodCorp": 83.62189103753936,
+    "BuildCo": 126.1771527473687,
+    "MediaNet": 79.78324284383007
+  }
+}

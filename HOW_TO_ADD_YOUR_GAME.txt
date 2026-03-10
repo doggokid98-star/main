@@ -1,0 +1,40 @@
+How to add your own game to the launcher
+=========================================
+
+1. CREATE YOUR GAME
+   - Your game can be a single .py file (e.g. my_game.py) or a folder with a script (e.g. my_game/run.py).
+   - It must run with:  python path/to/your_script.py
+   - Put the file or folder somewhere the launcher can find it (e.g. inside d:\launcher\games\my_game\run.py, or in the same drive).
+
+2. ADD IT TO THE LIBRARY (two ways)
+
+   A) EDIT data\games.json (easiest)
+      - Open d:\launcher\data\games.json in a text editor.
+      - Add a new object like this (copy and change the values):
+
+        {
+          "id": "my_game",
+          "name": "My Game",
+          "path": "games/my_game/run.py",
+          "platforms": ["windows", "mac", "linux", "chromeos"]
+        }
+
+      - "id": unique short name (no spaces).
+      - "name": name shown in the launcher.
+      - "path": path to your .py file, relative to the launcher folder.
+        Examples:
+          - If your script is at  d:\launcher\games\my_game\run.py   use  "path": "games/my_game/run.py"
+          - If your script is at  d:\my_game.py   and launcher is at d:\launcher   use  "path": "../my_game.py"
+      - "platforms": list of systems where the game is available. Use all four if it runs everywhere.
+
+   B) DEVELOPER MODE (if you added an "Add game" button)
+      - In the launcher: Settings -> Developer mode (PIN 1234).
+      - Use the "Add game" option to enter name and path and add to the library.
+
+3. RECENTS
+   - When you click Play on a game, it is added to Recents automatically.
+   - Recents shows the last 20 games you played (for the current OS filter).
+
+4. AFTER ADDING
+   - Restart the launcher or go to Games / Recents to see your game.
+   - Click Play to run it. The launcher uses the same Python that runs the launcher.
